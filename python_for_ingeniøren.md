@@ -4,4 +4,4 @@ Ein må ikkje ha fire spaces/tab, gjeng med to space også! omg!1!one!eleven!
 
 ## Etter lunsj
 
-Litt meir Python og git.
+Litt meir Python og git. Måtte lage ny nøkkel...

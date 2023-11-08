@@ -24,3 +24,5 @@ Sikkert ei grei anledning til å teste meir på Notebooks.
 __Endex__
 
 ## Dag 2
+
+Begynner klokka 09:00 (2023-11-09).

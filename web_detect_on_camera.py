@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 def type_of_script():
     try:
@@ -22,6 +22,7 @@ def show_image(image, title):
         plt.show()
     else:
         cv2.imshow(title, image)
+        cv2.waitKey(1)
 
 cascPath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
@@ -73,7 +74,7 @@ while is_capturing:
         else:
             #cv2.imshow does now work on my Mac?
             cv2.imshow('Capture', gray_image)
-            if cv2.waitKey(1) == ord("q"):
+            if (cv2.waitKey(1) == ord("q")):
                 break
 
     # Avoids a NotImplementedError caused by `plt.pause`

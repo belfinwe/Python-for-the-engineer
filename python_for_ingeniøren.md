@@ -51,3 +51,5 @@ Kan bruke det her direkte på eit kamera. Lurer på om det var ~~Pandas~~ OpenCV
 Må nok testes lokalt på maskina, sidan scriptet trenger tilgong til kameraet.
 
 Sliter ein del med å få den webcamera-tingen til å fungere, mest med å få innstallert ting på venv på Windows. Naboen (-->) fekk det til.
+
+Pakker Python-filane med `pyinstaller <filnavn>.py`. Filane det blir lagt i ligger i `.gitignore`.
